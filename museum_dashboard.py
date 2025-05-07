@@ -48,7 +48,7 @@ st.markdown(df.to_html(index=False, classes='styled-table'), unsafe_allow_html=T
 
 
 # Add logo
-st.image("children.jpeg", width = 170)
+st.image("children.jpeg", width = 170, height = 120 )
 
 # Section
 st.markdown("### Jonga apha nkande patyutyu uhlomle")
@@ -81,10 +81,6 @@ if os.path.exists("feedback.csv"):
 else:
     df_combined = df_original.copy()
 
-# ------------------------
-# Streamlit App Begins
-# ------------------------
-st.title("Children's Museum Program Dashboard")
 
 # Show the raw data
 st.subheader("Raw Data (Including Feedback)")
