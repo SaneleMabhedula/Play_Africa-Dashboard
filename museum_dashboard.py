@@ -48,7 +48,7 @@ st.markdown(df.to_html(index=False, classes='styled-table'), unsafe_allow_html=T
 
 
 # Add logo
-st.image("children.jpeg", width = 170, height = 120 )
+st.image("children.jpeg", width = 170 )
 
 # Section
 st.markdown("### Jonga apha nkande patyutyu uhlomle")
