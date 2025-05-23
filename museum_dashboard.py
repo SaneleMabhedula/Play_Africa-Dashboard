@@ -70,7 +70,7 @@ st.markdown(
 # Title and logo in same row
 col1, col2 = st.columns([4, 1])
 with col1:
-    st.title("Children's Museum Dashboard")
+    st.title("Play Africa Dashboard")
 with col2:
     st.image("play_africa_logo.png", width= 120)
 
