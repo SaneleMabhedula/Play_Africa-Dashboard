@@ -6,8 +6,8 @@ import os
 
 # Sample data
 df = pd.DataFrame({
-    "Program Name": ["Robotics", "Math Games", "Eco Warriors"],
-    "Rating": [4.5, 3.8, 4.2],
+    "Program Name": ["I am scientist", "Design thinking", "Creative Arts"],
+    "Rating": [4.5, 4.8, 4.2],
     "No. of Children": [35, 25, 30]
 })
 
@@ -72,7 +72,7 @@ col1, col2 = st.columns([4, 1])
 with col1:
     st.title("Children's Museum Dashboard")
 with col2:
-    st.image("children.jpeg", width=120)
+    st.image("play_africa_logo.png", width= 120)
 
 # Horizontal line divider
 st.markdown("---")
@@ -81,8 +81,8 @@ st.markdown("---")
 # Original Dataset
 # ------------------------
 original_data = {
-    "Program Name": ["Robotics", "Math Games", "Eco Warriors", "Robotics", "Math Games"],
-    "Program Rating (1-5)": [4.5, 3.8, 4.2, 4.0, 3.6],
+    "Program Name": ["I am scientist", "Design thinking", "Creative Arts", "Design thinking","I am scientist"],
+    "Program Rating (1-5)": [4.5, 4.8, 4.2, 4.0, 3.6],
     "No. of Children": [35, 25, 30, 40, 20]
 }
 df_original = pd.DataFrame(original_data)

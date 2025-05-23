@@ -1,2 +1,4 @@
 children.jpeg
 museum_dashboard.py
+play_africa_logo.png
+
